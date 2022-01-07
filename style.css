@@ -38,7 +38,7 @@ body {
 }
 
 header {
-  background-image: url("images/desktop/image-header.jpg");
+  background-image: url("/images/desktop/image-header.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -204,33 +204,45 @@ header > h1 {
 
 .Section3-Left-Info {
   position: absolute;
+  margin-top: 28%;
+  margin-left: 15%;
 }
 
 .Section3-Right-Info {
   position: absolute;
+  margin-top: 28%;
+  margin-left: 15%;
 }
 
 .Section3-Left-Info > h2 {
   color: var(--darkDesaturatedCyan);
   font-family: "Fraunces", serif;
-  font-weight: 700;
+  font-weight: 900;
+  padding-left: 80px;
+  margin-bottom: 40px;
+  font-size: 3rem;
 }
 
 .Section3-Left-Info > p {
   color: var(--darkDesaturatedCyan);
-  width: 350px;
+  font-family: "Barlow", sans-serif;
+  width: 390px;
   text-align: center;
 }
 
 .Section3-Right-Info > h2 {
-  font-family: "Fraunces", serif;
-  font-weight: 700;
   color: var(--darkDlue);
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding-left: 85px;
+  margin-bottom: 40px;
+  font-size: 3rem;
 }
 
 .Section3-Right-Info > p {
   color: var(--darkDlue);
-  width: 350px;
+  font-family: "Barlow", sans-serif;
+  width: 390px;
   text-align: center;
 }
 
@@ -241,3 +253,4 @@ header > h1 {
 .orange-img {
   width: 100%;
 }
+
