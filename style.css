@@ -140,6 +140,7 @@ header > h1 {
 }
 
 .egg-img {
+  display: block;
   width: 100%;
   height: 100%;
 }
@@ -184,6 +185,7 @@ header > h1 {
 }
 
 .cup-img {
+  display: block;
   width: 100%;
   height: 100%;
 }
@@ -248,10 +250,12 @@ header > h1 {
 
 .cherry-img {
   width: 100%;
+  display: block;
 }
 
 .orange-img {
   width: 100%;
+  display: block;
 }
 
 /*    4       */
@@ -260,14 +264,87 @@ header > h1 {
 }
 
 .sectionFour > h4 {
+  display: flex;
+  justify-content: center;
   font-family: "Fraunces", serif;
   font-weight: 700;
   color: var(--grayishBlue);
   letter-spacing: 5px;
+  padding-top: 80px;
 }
 
-.Testimonials {
+.testimonials {
   display: flex;
+  padding-top: 50px;
+}
+
+.cus-img-1 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.cus-img-2 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.cus-img-3 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.Testimonial-One > p {
+  color: var(--veryDarkGrayishBlue);
+  font-family: "Barlow", sans-serif;
+  width: 350px;
+  text-align: center;
+}
+
+.Testimonial-One > h5 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.Testimonial-One > h6 {
+  color: var(--grayishBlue);
+  font-family: "Barlow", sans-serif;
+}
+
+.Testimonial-Two > p {
+  color: var(--veryDarkGrayishBlue);
+  font-family: "Barlow", sans-serif;
+  width: 350px;
+  text-align: center;
+}
+
+.Testimonial-Two > h5 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.Testimonial-Two > h6 {
+  color: var(--grayishBlue);
+  font-family: "Barlow", sans-serif;
+}
+
+.Testimonial-Three > p {
+  color: var(--veryDarkGrayishBlue);
+  font-family: "Barlow", sans-serif;
+  width: 350px;
+  text-align: center;
+}
+
+.Testimonial-Three > h5 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+
+.Testimonial-Three > h6 {
+  color: var(--grayishBlue);
+  font-family: "Barlow", sans-serif;
 }
 
 /*    5       */
@@ -279,18 +356,22 @@ header > h1 {
 
 .milk-img {
   width: 25%;
+  display: block;
 }
 
 .orangeMilk-img {
   width: 25%;
+  display: block;
 }
 
 .cone-img {
   width: 25%;
+  display: block;
 }
 
 .sugarcube-img {
   width: 25%;
+  display: block;
 }
 
 /*    FOOTER     */
@@ -317,7 +398,6 @@ footer {
   display: flex;
   margin: auto;
   font-family: "Barlow", sans-serif;
-  font-weight: 600;
 }
 
 .footer-links > li > a {
