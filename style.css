@@ -260,9 +260,6 @@ header > h1 {
 
 /*    4       */
 
-.sectionFour {
-}
-
 .sectionFour > h4 {
   display: flex;
   justify-content: center;
