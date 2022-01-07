@@ -256,6 +256,20 @@ header > h1 {
 
 /*    4       */
 
+.sectionFour {
+}
+
+.sectionFour > h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: var(--grayishBlue);
+  letter-spacing: 5px;
+}
+
+.Testimonials {
+  display: flex;
+}
+
 /*    5       */
 
 .sectionFive {
