@@ -114,32 +114,32 @@ header > h1 {
   width: 950px;
 }
 
+.sectionOne-info {
+  height: 100%;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+
 .sectionOne-info > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  color: black;
+  color: var(--veryDarkDesaturatedBlue);
   max-width: 300px;
-  margin-top: 215px;
-  margin-left: 250px;
 }
 
 .sectionOne-info > p {
   color: var(--veryDarkGrayishBlue);
-  max-width: 415px;
+  font-family: "Barlow", sans-serif;
+  max-width: 450px;
   line-height: 25px;
-  margin-left: 250px;
   margin-top: 30px;
   margin-bottom: 35px;
 }
 
-.sectionOne-info > a {
+.LM-1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: black;
-  margin-left: 255px;
-}
-
-.LM-1 {
   border-bottom: 1px solid var(--Yellow); /* FIX / DO THIS*/
 }
 
@@ -155,6 +155,12 @@ header > h1 {
   display: flex;
 }
 
+.sectionTwo-info {
+  height: 100%;
+  margin-left: 300px;
+  margin-top: 250px;
+}
+
 .sectionTwo-Left {
   width: 950px;
 }
@@ -163,32 +169,26 @@ header > h1 {
   width: 950px;
 }
 
-.sectionTwo-Right > h1 {
+.sectionTwo-info > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  color: black;
+  color: var(--veryDarkDesaturatedBlue);
   width: 300px;
-  margin-top: 215px;
-  margin-left: 250px;
 }
 
-.sectionTwo-Right > p {
+.sectionTwo-info > p {
   color: var(--veryDarkGrayishBlue);
-  width: 415px;
+  font-family: "Barlow", sans-serif;
+  max-width: 450px;
   line-height: 25px;
-  margin-left: 250px;
   margin-top: 30px;
   margin-bottom: 35px;
 }
 
-.sectionTwo-Right > a {
+.LM-2 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: black;
-  margin-left: 255px;
-}
-
-.LM-2 {
   border-bottom: 1px solid var(--softRed); /* FIX / DO THIS*/
 }
 
