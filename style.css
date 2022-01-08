@@ -267,12 +267,15 @@ header > h1 {
   font-weight: 700;
   color: var(--grayishBlue);
   letter-spacing: 5px;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .testimonials {
   display: flex;
-  padding-top: 50px;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 85px;
 }
 
 .cus-img-1 {
@@ -298,16 +301,19 @@ header > h1 {
   font-family: "Barlow", sans-serif;
   width: 350px;
   text-align: center;
+  padding-top: 35px;
 }
 
 .Testimonial-One > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
+  padding-top: 40px;
 }
 
 .Testimonial-One > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
+  padding-top: 10px;
 }
 
 .Testimonial-Two > p {
@@ -315,16 +321,19 @@ header > h1 {
   font-family: "Barlow", sans-serif;
   width: 350px;
   text-align: center;
+  padding-top: 35px;
 }
 
 .Testimonial-Two > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
+  padding-top: 40px;
 }
 
 .Testimonial-Two > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
+  padding-top: 10px;
 }
 
 .Testimonial-Three > p {
@@ -332,16 +341,19 @@ header > h1 {
   font-family: "Barlow", sans-serif;
   width: 350px;
   text-align: center;
+  padding-top: 35px;
 }
 
 .Testimonial-Three > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
+  padding-top: 40px;
 }
 
 .Testimonial-Three > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
+  padding-top: 10px;
 }
 
 /*    5       */
