@@ -114,29 +114,33 @@ header > h1 {
   width: 950px;
 }
 
-.sectionOne-Left > h1 {
+.sectionOne-info > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: black;
-  width: 300px;
+  max-width: 300px;
   margin-top: 215px;
   margin-left: 250px;
 }
 
-.sectionOne-Left > p {
+.sectionOne-info > p {
   color: var(--veryDarkGrayishBlue);
-  width: 415px;
+  max-width: 415px;
   line-height: 25px;
   margin-left: 250px;
   margin-top: 30px;
   margin-bottom: 35px;
 }
 
-.sectionOne-Left > a {
+.sectionOne-info > a {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: black;
   margin-left: 255px;
+}
+
+.LM-1 {
+  border-bottom: 1px solid var(--Yellow); /* FIX / DO THIS*/
 }
 
 .egg-img {
@@ -184,6 +188,10 @@ header > h1 {
   margin-left: 255px;
 }
 
+.LM-2 {
+  border-bottom: 1px solid var(--softRed); /* FIX / DO THIS*/
+}
+
 .cup-img {
   display: block;
   width: 100%;
@@ -198,22 +206,24 @@ header > h1 {
 
 .sectionThree-Left {
   width: 950px;
+  position: relative;
 }
 
 .sectionThree-Right {
   width: 950px;
+  position: relative;
 }
 
 .Section3-Left-Info {
   position: absolute;
-  margin-top: 28%;
-  margin-left: 15%;
+  margin-top: 55%;
+  margin-left: 30%;
 }
 
 .Section3-Right-Info {
   position: absolute;
-  margin-top: 28%;
-  margin-left: 15%;
+  margin-top: 55%;
+  margin-left: 30%;
 }
 
 .Section3-Left-Info > h2 {
@@ -227,7 +237,7 @@ header > h1 {
 .Section3-Left-Info > p {
   color: var(--darkDesaturatedCyan);
   font-family: "Barlow", sans-serif;
-  width: 390px;
+  max-width: 390px;
   text-align: center;
   margin-top: 35px;
 }
@@ -243,7 +253,7 @@ header > h1 {
 .Section3-Right-Info > p {
   color: var(--darkDlue);
   font-family: "Barlow", sans-serif;
-  width: 390px;
+  max-width: 390px;
   text-align: center;
   margin-top: 35px;
 }
