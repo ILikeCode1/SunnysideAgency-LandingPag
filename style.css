@@ -299,7 +299,7 @@ header > h1 {
 .Testimonial-One > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   padding-top: 35px;
 }
@@ -319,7 +319,7 @@ header > h1 {
 .Testimonial-Two > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   padding-top: 35px;
 }
@@ -339,7 +339,7 @@ header > h1 {
 .Testimonial-Three > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   padding-top: 35px;
 }
