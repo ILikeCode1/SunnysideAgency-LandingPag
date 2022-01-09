@@ -55,11 +55,11 @@ header {
   height: 100vh;
 }
 
-.top-nav {
+.top-header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 40px;
+  padding: 45px 50px;
 }
 
 .nav-links > li {
@@ -68,8 +68,8 @@ header {
 }
 
 .nav-links > li > a {
-  font-family: "Barlow", sans-serif;
   color: var(--White);
+  font-family: "Barlow", sans-serif;
 }
 
 .contact-btn {
@@ -77,8 +77,8 @@ header {
   font-family: "Barlow", sans-serif;
   background-color: var(--White);
   padding: 0.7em 1.3em;
-  border-radius: 1.6em;
   margin-left: 20px;
+  border-radius: 1.6em;
 }
 
 .logo {
@@ -86,19 +86,20 @@ header {
   width: 150px;
 }
 
-header > h1 {
-  font-size: 45px;
+.bottom-header > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
   font-family: "Fraunces", serif;
   font-weight: 900;
-  color: var(--White);
+  font-size: 50px;
+  padding: 50px 0;
   letter-spacing: 10px;
-  margin-top: 7%;
-  margin-left: 35%;
 }
 
-.arrow {
-  margin-top: 13%;
-  margin-left: 50%;
+.arrow-img {
+  display: block;
 }
 
 /*    1       */
@@ -223,8 +224,8 @@ header > h1 {
 
 .Section3-Right-Info {
   position: absolute;
-  margin-top: 55%;
-  margin-left: 30%;
+  padding-top: 55%;
+  padding-left: 30%;
 }
 
 .Section3-Left-Info > h2 {
@@ -256,7 +257,7 @@ header > h1 {
   font-family: "Barlow", sans-serif;
   max-width: 390px;
   text-align: center;
-  margin-top: 35px;
+  padding-top: 35px;
 }
 
 .cherry-img {
@@ -274,11 +275,11 @@ header > h1 {
 .sectionFour > h4 {
   display: flex;
   justify-content: center;
+  color: var(--grayishBlue);
   font-family: "Fraunces", serif;
   font-weight: 700;
-  color: var(--grayishBlue);
-  letter-spacing: 5px;
   padding-top: 70px;
+  letter-spacing: 5px;
 }
 
 .testimonials {
@@ -311,8 +312,8 @@ header > h1 {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 350px;
-  text-align: center;
   padding-top: 35px;
+  text-align: center;
 }
 
 .Testimonial-One > h5 {
@@ -331,8 +332,8 @@ header > h1 {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 350px;
-  text-align: center;
   padding-top: 35px;
+  text-align: center;
 }
 
 .Testimonial-Two > h5 {
@@ -351,8 +352,8 @@ header > h1 {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 350px;
-  text-align: center;
   padding-top: 35px;
+  text-align: center;
 }
 
 .Testimonial-Three > h5 {
@@ -412,24 +413,24 @@ footer {
 .footer-menu {
   display: flex;
   padding-top: 35px;
+  padding-bottom: 40px;
 }
 
 .footer-links {
   display: flex;
-  margin: auto;
   font-family: "Barlow", sans-serif;
+  margin: auto;
 }
 
 .footer-links > li > a {
   color: var(--darkModerateCyan);
-  margin-left: 40px;
+  padding: 20px;
 }
 
 .social-links {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .social-links > a > img {
-  margin-left: 20px;
+  padding: 10px;
 }
