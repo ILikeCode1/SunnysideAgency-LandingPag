@@ -43,23 +43,21 @@ header {
   height: 100vh;
 }
 
-nav {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 600px;
-}
 .logo {
-  margin-left: 45px;
-  margin-top: 30px;
-  display: inline;
+  height: 27px;
+  width: 150px;
 }
 
-.nav-links {
-  display: inline-flex;
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
 }
 
 .nav-links > li {
-  margin-right: 50px;
+  display: inline-block;
+  padding: 0 15px;
 }
 
 .nav-links > li > a {
@@ -72,17 +70,6 @@ li,
 a {
   text-decoration: none;
   list-style: none;
-}
-
-button {
-  font-size: 1.8rem;
-  font-family: "Barlow", sans-serif;
-  color: var(--veryDarkDesaturatedBlue);
-  background-color: var(--White);
-  border-radius: 20px;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 50px;
 }
 
 header > h1 {
