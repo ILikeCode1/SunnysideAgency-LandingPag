@@ -37,15 +37,23 @@ body {
   font-size: 1.8rem;
 }
 
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+/*    HEADER    */
+
 header {
   background-image: url("images/desktop/image-header.jpg");
   background-size: cover;
   height: 100vh;
-}
-
-.logo {
-  height: 27px;
-  width: 150px;
 }
 
 .top-nav {
@@ -57,7 +65,7 @@ header {
 
 .nav-links > li {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .nav-links > li > a {
@@ -65,11 +73,18 @@ header {
   color: white;
 }
 
-ul,
-li,
-a {
-  text-decoration: none;
-  list-style: none;
+.contact-btn {
+  color: black;
+  font-family: "Barlow", sans-serif;
+  background-color: white;
+  padding: 0.7em 1.3em;
+  border-radius: 1.6em;
+  margin-left: 20px;
+}
+
+.logo {
+  height: 27px;
+  width: 150px;
 }
 
 header > h1 {
@@ -131,7 +146,6 @@ header > h1 {
 }
 
 .egg-img {
-  display: block;
   width: 100%;
   height: 100%;
 }
@@ -180,7 +194,6 @@ header > h1 {
 }
 
 .cup-img {
-  display: block;
   width: 100%;
   height: 100%;
 }
@@ -247,12 +260,11 @@ header > h1 {
 
 .cherry-img {
   width: 100%;
-  display: block;
+
 }
 
 .orange-img {
   width: 100%;
-  display: block;
 }
 
 /*    4       */
@@ -362,22 +374,21 @@ header > h1 {
 
 .milk-img {
   width: 25%;
-  display: block;
+
 }
 
 .orangeMilk-img {
   width: 25%;
-  display: block;
+
 }
 
 .cone-img {
   width: 25%;
-  display: block;
+
 }
 
 .sugarcube-img {
   width: 25%;
-  display: block;
 }
 
 /*    FOOTER     */
