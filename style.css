@@ -161,6 +161,7 @@ header {
 
 .sectionTwo {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -169,29 +170,31 @@ header {
 }
 
 .sectionTwo-Right {
+  display: flex;
   width: 50%;
 }
 
-.sectionTwo-info {
-  height: 100%;
-  margin-left: 300px;
-  margin-top: 250px;
+.sectionTwo-Info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
-.sectionTwo-info > h1 {
+.sectionTwo-Info > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: var(--veryDarkDesaturatedBlue);
-  width: 300px;
+  max-width: 400px;
+  padding-bottom: 30px;
 }
 
-.sectionTwo-info > p {
+.sectionTwo-Info > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 450px;
   line-height: 25px;
-  margin-top: 30px;
-  margin-bottom: 35px;
+  padding-bottom: 30px;
 }
 
 .LM-2 {
