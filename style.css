@@ -283,9 +283,14 @@ header {
 
 /*    4       */
 
-.sectionFour > h4 {
+.sectionFour {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+
+.sectionFour > h4 {
   color: var(--grayishBlue);
   font-family: "Fraunces", serif;
   font-weight: 700;
@@ -296,24 +301,11 @@ header {
 .testimonials {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
   padding-top: 60px;
   padding-bottom: 85px;
 }
 
-.cus-img-1 {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-}
-
-.cus-img-2 {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-}
-
-.cus-img-3 {
+.cus-img {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -324,7 +316,6 @@ header {
   font-family: "Barlow", sans-serif;
   max-width: 350px;
   padding-top: 35px;
-  text-align: center;
 }
 
 .Testimonial-One > h5 {
@@ -344,7 +335,6 @@ header {
   font-family: "Barlow", sans-serif;
   max-width: 350px;
   padding-top: 35px;
-  text-align: center;
 }
 
 .Testimonial-Two > h5 {
@@ -364,7 +354,6 @@ header {
   font-family: "Barlow", sans-serif;
   max-width: 350px;
   padding-top: 35px;
-  text-align: center;
 }
 
 .Testimonial-Three > h5 {
