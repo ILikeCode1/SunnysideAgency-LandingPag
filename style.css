@@ -87,6 +87,11 @@ header {
   border-radius: 1.6em;
 }
 
+.contact-btn:hover {
+  color: hsl(0, 0%, 100%);
+  background: hsla(0, 0%, 100%, 0.4);
+}
+
 .bottom-header {
   text-align: center;
 }
@@ -426,6 +431,10 @@ footer {
 .footer-links > li > a {
   color: var(--darkModerateCyan);
   padding: 20px;
+}
+
+.footer-links > li > a:hover {
+  color: var(--White);
 }
 
 .social-links {
