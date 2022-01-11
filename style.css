@@ -109,36 +109,39 @@ header {
 
 .sectionOne {
   display: flex;
+  width: 100%;
 }
 
 .sectionOne-Left {
-  width: 950px;
+  display: flex;
+  width: 50%;
 }
 
 .sectionOne-Right {
-  width: 950px;
+  width: 50%;
 }
 
-.sectionOne-info {
-  height: 100%;
-  margin-left: 300px;
-  margin-top: 250px;
+.sectionOne-Info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
-.sectionOne-info > h1 {
+.sectionOne-Info > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: var(--veryDarkDesaturatedBlue);
-  max-width: 300px;
+  max-width: 320px;
+  padding-bottom: 30px;
 }
 
-.sectionOne-info > p {
+.sectionOne-Info > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 450px;
   line-height: 25px;
-  margin-top: 30px;
-  margin-bottom: 35px;
+  padding-bottom: 30px;
 }
 
 .LM-1 {
@@ -158,20 +161,21 @@ header {
 
 .sectionTwo {
   display: flex;
+  width: 100%;
+}
+
+.sectionTwo-Left {
+  width: 50%;
+}
+
+.sectionTwo-Right {
+  width: 50%;
 }
 
 .sectionTwo-info {
   height: 100%;
   margin-left: 300px;
   margin-top: 250px;
-}
-
-.sectionTwo-Left {
-  width: 950px;
-}
-
-.sectionTwo-Right {
-  width: 950px;
 }
 
 .sectionTwo-info > h1 {
@@ -207,15 +211,16 @@ header {
 
 .sectionThree {
   display: flex;
+  width: 100%;
 }
 
 .sectionThree-Left {
-  width: 950px;
+  width: 50%;
   position: relative;
 }
 
 .sectionThree-Right {
-  width: 950px;
+  width: 50%;
   position: relative;
 }
 
