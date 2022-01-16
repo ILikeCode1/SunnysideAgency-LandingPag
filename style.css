@@ -460,22 +460,22 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .sectionOne-Left {
+  .sectionOne-Info {
     width: 100%;
   }
 
-  .sectionOne-Info {
+  .sectionOne-Info-Text {
     align-items: center;
     text-align: center;
   }
 
-  .sectionOne-Info > h1 {
+  .sectionOne-Info-Text > h1 {
     max-width: 250px;
     padding-top: 45px;
     padding-bottom: 20px;
   }
 
-  .sectionOne-Info > p {
+  .sectionOne-Info-Text > p {
     max-width: 350px;
   }
 
@@ -483,10 +483,9 @@ footer {
     padding-bottom: 50px;
   }
 
-  .sectionOne-Right {
+  .sectionOne-Image {
     width: 100%;
   }
-
   /*    2       */
 
   .sectionTwo {
