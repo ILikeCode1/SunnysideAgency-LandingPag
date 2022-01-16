@@ -214,27 +214,27 @@ header {
   width: 100%;
 }
 
-.sectionThree-Left {
+.sectionThree-Left-Top {
   display: flex;
   width: 50%;
   position: relative;
   justify-content: center;
 }
 
-.Section3-Left-Info {
+.Section3-LT-Info {
   position: absolute;
   top: 70%;
   margin: 0 auto;
 }
 
-.Section3-Left-Info > h2 {
+.Section3-LT-Info > h2 {
   color: var(--darkDesaturatedCyan);
   font-family: "Fraunces", serif;
   font-weight: 900;
   padding-bottom: 30px;
 }
 
-.Section3-Left-Info > p {
+.Section3-LT-Info > p {
   color: var(--darkDesaturatedCyan);
   font-family: "Barlow", sans-serif;
   max-width: 390px;
@@ -246,27 +246,27 @@ header {
   width: 100%;
 }
 
-.sectionThree-Right {
+.sectionThree-Right-Bottom {
   display: flex;
   width: 50%;
   position: relative;
   justify-content: center;
 }
 
-.Section3-Right-Info {
+.Section3-RB-Info {
   position: absolute;
   top: 70%;
   margin: 0 auto;
 }
 
-.Section3-Right-Info > h2 {
+.Section3-RB-Info > h2 {
   color: var(--darkDlue);
   font-family: "Fraunces", serif;
   font-weight: 900;
   padding-bottom: 30px;
 }
 
-.Section3-Right-Info > p {
+.Section3-RB-Info > p {
   color: var(--darkDlue);
   font-family: "Barlow", sans-serif;
   max-width: 390px;
@@ -526,27 +526,27 @@ footer {
     flex-direction: column;
   }
 
-  .sectionThree-Left {
+  .sectionThree-Left-Top {
     width: 100%;
   }
 
-  .Section3-Left-Info {
+  .Section3-LT-Info {
     top: 60%;
   }
 
-  .Section3-Left-Info > h2 {
+  .Section3-LT-Info > h2 {
     padding-bottom: 20px;
   }
 
-  .sectionThree-Right {
+  .sectionThree-Right-Bottom {
     width: 100%;
   }
 
-  .Section3-Right-Info {
+  .Section3-RB-Info {
     top: 60%;
   }
 
-  .Section3-Right-Info > h2 {
+  .Section3-RB-Info > h2 {
     padding-bottom: 20px;
   }
 
@@ -603,6 +603,7 @@ footer {
   }
 
   .gallery {
+    display: flex;
   }
 
   .milk-img {
