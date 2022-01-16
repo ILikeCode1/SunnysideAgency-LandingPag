@@ -373,6 +373,10 @@ header {
   width: 100%;
 }
 
+.gallery {
+  display: flex;
+}
+
 .milk-img {
   width: 25%;
   display: block;
