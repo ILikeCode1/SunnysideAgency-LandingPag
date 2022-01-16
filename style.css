@@ -110,19 +110,19 @@ header {
   width: 100%;
 }
 
-.sectionOne-Left {
+.sectionOne-Info {
   display: flex;
   width: 50%;
 }
 
-.sectionOne-Info {
+.sectionOne-Info-Text {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
 }
 
-.sectionOne-Info > h1 {
+.sectionOne-Info-Text > h1 {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: var(--veryDarkDesaturatedBlue);
@@ -130,7 +130,7 @@ header {
   padding-bottom: 30px;
 }
 
-.sectionOne-Info > p {
+.sectionOne-Info-Text > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
   max-width: 450px;
@@ -145,7 +145,7 @@ header {
   border-bottom: 1px solid var(--Yellow); /* FIX / DO THIS*/
 }
 
-.sectionOne-Right {
+.sectionOne-Image {
   width: 50%;
 }
 
