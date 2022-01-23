@@ -507,10 +507,6 @@ footer {
     display: none;
   }
 
-  #mobileNav {
-    display: none;
-  }
-
   .mobile-menu {
     display: block;
   }
@@ -568,6 +564,7 @@ footer {
   .egg-img-M {
     display: block;
     width: 100%;
+    height: auto;
   }
 
   /*    2       */
@@ -587,6 +584,7 @@ footer {
   .cup-img-M {
     display: block;
     width: 100%;
+    height: auto;
   }
 
   .sectionTwo-Info {
@@ -630,6 +628,7 @@ footer {
   .cherry-img-M {
     display: block;
     width: 100%;
+    height: auto;
   }
 
   .Section3-LT-Info {
@@ -651,6 +650,7 @@ footer {
   .orange-img-M {
     display: block;
     width: 100%;
+    height: auto;
   }
 
   .Section3-RB-Info {
