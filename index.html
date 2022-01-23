@@ -19,7 +19,12 @@
     <header>
       <div class="top-header-nav">
         <img class="logo" src="images/logo.svg" alt="logo" />
-        <img class="mobile-menu" src="images/icon-hamburger.svg" alt="menu" />
+        <img
+          id="mobileMenu"
+          onclick="mobileMenuT()"
+          src="images/icon-hamburger.svg"
+          alt="menu"
+        />
         <!--   Desktop Nav   -->
         <div id="desktopNav">
           <nav>
@@ -31,17 +36,17 @@
             </ul>
           </nav>
         </div>
-        <!--   Mobile Nav   -->
-        <div id="mobileNav">
-          <nav>
-            <ul class="nav-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Projects</a></li>
-              <a class="contact-btn" href="#">CONTACT</a>
-            </ul>
-          </nav>
-        </div>
+      </div>
+      <!--   Mobile Nav   -->
+      <div id="mobileNav">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <a class="contact-btn" href="#">CONTACT</a>
+          </ul>
+        </nav>
       </div>
       <div class="bottom-header-text">
         <h1>WE ARE CREATIVES</h1>
