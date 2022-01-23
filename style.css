@@ -4,7 +4,6 @@
 /*
 font-family: 'Barlow', sans-serif;
 font-weight:600;
-
 font-family: 'Fraunces', serif;
 font-weight:700 900;
 */
@@ -488,19 +487,24 @@ footer {
   padding: 10px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .Section3-LT-Info {
-    top: 60%;
+@media only screen and (max-width: 700px) {
+  header {
+    background-image: url("images/mobile/image-header.jpg");
   }
-  .Section3-RB-Info {
-    top: 60%;
-  }
-}
 
-@media only screen and (max-width: 950px) {
-  .bottom-header > img {
-    width: 6%;
+  .top-header-nav {
+    padding: 30px;
   }
+
+  .bottom-header > h1 {
+    font-size: 45px;
+  }
+
+  .bottom-header > img {
+    width: 10%;
+  }
+
+  /*    1       */
 
   .sectionOne {
     flex-direction: column-reverse;
@@ -533,6 +537,15 @@ footer {
     width: 100%;
   }
 
+  .egg-img-D {
+    display: none;
+  }
+
+  .egg-img-M {
+    display: block;
+    width: 100%;
+  }
+
   /*    2       */
 
   .sectionTwo {
@@ -540,6 +553,15 @@ footer {
   }
 
   .sectionTwo-Image {
+    width: 100%;
+  }
+
+  .cup-img-D {
+    display: none;
+  }
+
+  .cup-img-M {
+    display: block;
     width: 100%;
   }
 
@@ -577,6 +599,15 @@ footer {
     width: 100%;
   }
 
+  .cherry-img-D {
+    display: none;
+  }
+
+  .cherry-img-M {
+    display: block;
+    width: 100%;
+  }
+
   .Section3-LT-Info {
     top: 65%;
   }
@@ -586,6 +617,15 @@ footer {
   }
 
   .sectionThree-Right-Bottom {
+    width: 100%;
+  }
+
+  .orange-img-D {
+    display: none;
+  }
+
+  .orange-img-M {
+    display: block;
     width: 100%;
   }
 
@@ -642,60 +682,8 @@ footer {
   .Testimonial-Three > h5 {
     padding-top: 20px;
   }
-}
 
-@media only screen and (max-width: 750px) {
-  header {
-    background-image: url("images/mobile/image-header.jpg");
-  }
-
-  .top-header-nav {
-    padding: 30px;
-  }
-
-  .bottom-header > h1 {
-    font-size: 45px;
-  }
-
-  .bottom-header > img {
-    width: 10%;
-  }
-
-  .egg-img-D {
-    display: none;
-  }
-
-  .egg-img-M {
-    display: block;
-    width: 100%;
-  }
-
-  .cup-img-D {
-    display: none;
-  }
-
-  .cup-img-M {
-    display: block;
-    width: 100%;
-  }
-
-  .cherry-img-D {
-    display: none;
-  }
-
-  .cherry-img-M {
-    display: block;
-    width: 100%;
-  }
-
-  .orange-img-D {
-    display: none;
-  }
-
-  .orange-img-M {
-    display: block;
-    width: 100%;
-  }
+  /*    5    */
 
   .desktop-Gallery {
     display: none;
@@ -706,18 +694,18 @@ footer {
     width: 100%;
   }
   .milk-img-M {
-    width: 50%;
+    width: 25%;
   }
 
   .orangeMilk-img-M {
-    width: 50%;
+    width: 25%;
   }
 
   .cone-img-M {
-    width: 50%;
+    width: 25%;
   }
 
   .sugarcube-img-M {
-    width: 50%;
+    width: 25%;
   }
 }
