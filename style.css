@@ -608,6 +608,14 @@ footer {
     background-image: url("images/mobile/image-header.jpg");
   }
 
+  #desktopNav {
+    display: none;
+  }
+
+  #mobileMenu {
+    display: block;
+  }
+  
   .top-header-nav {
     padding: 25px;
   }
@@ -722,6 +730,7 @@ footer {
     display: flex;
     width: 100%;
   }
+  
   .milk-img-M {
     width: 25%;
   }
