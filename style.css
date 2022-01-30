@@ -625,7 +625,7 @@ footer {
     left: 50%;
     top: 7rem;
     transform: translateX(-50%);
-    background: hsl(46, 55%, 94%);
+    background: var(--White);
     padding: 2rem;
     z-index: 1;
     width: 85%;
