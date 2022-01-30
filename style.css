@@ -635,11 +635,11 @@ footer {
     content: "";
     position: absolute;
     right: 0;
-    top: -1.6rem;
-    border-top: 0.7rem solid transparent;
-    border-bottom: 0.7rem solid hsl(46, 55%, 94%);
-    border-left: 0.7rem solid transparent;
-    border-right: 0.7rem solid hsl(46, 55%, 94%);
+    top: -1.4rem;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid var(--White);
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid var(--White);
   }
 
   .nav-links {
