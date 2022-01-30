@@ -621,7 +621,7 @@ footer {
   }
 
   #mobileNav {
-    position: fixed;
+    position: absolute;
     left: 50%;
     top: 7rem;
     transform: translateX(-50%);
