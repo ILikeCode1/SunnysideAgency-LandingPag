@@ -621,14 +621,14 @@ footer {
   }
 
   #mobileNav {
+    background: var(--White);
     position: absolute;
+    width: 85%;
+    padding: 2rem;
     left: 50%;
     top: 7rem;
-    transform: translateX(-50%);
-    background: var(--White);
-    padding: 2rem;
     z-index: 1;
-    width: 85%;
+    transform: translateX(-50%);
   }
 
   #mobileNav:after {
