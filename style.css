@@ -81,6 +81,10 @@ header {
   font-family: "Barlow", sans-serif;
 }
 
+.nav-links > li > a:hover {
+  opacity: 0.6;
+}
+
 .contact-btn {
   color: var(--veryDarkDesaturatedBlue);
   font-family: "Barlow", sans-serif;
@@ -615,7 +619,57 @@ footer {
   #mobileMenu {
     display: block;
   }
-  
+
+  #mobileNav {
+    position: fixed;
+    left: 50%;
+    top: 7rem;
+    transform: translateX(-50%);
+    background: hsl(46, 55%, 94%);
+    padding: 2rem;
+    z-index: 1;
+    width: 85%;
+  }
+
+  #mobileNav:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -1.6rem;
+    border-top: 0.7rem solid transparent;
+    border-bottom: 0.7rem solid hsl(46, 55%, 94%);
+    border-left: 0.7rem solid transparent;
+    border-right: 0.7rem solid hsl(46, 55%, 94%);
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links > li {
+    padding: 20px 0;
+  }
+
+  .nav-links > li > a {
+    color: var(--darkGrayishBlue);
+  }
+
+  .contact-btn {
+    background-color: var(--Yellow);
+    width: 115px;
+    padding: 0.7em 1.1em;
+    margin: 10px;
+  }
+
+  .contact-btn:hover {
+    color: black;
+    background-color: var(--Yellow);
+    opacity: 0.8;
+  }
+
   .top-header-nav {
     padding: 25px;
   }
@@ -730,7 +784,7 @@ footer {
     display: flex;
     width: 100%;
   }
-  
+
   .milk-img-M {
     width: 25%;
   }
