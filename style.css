@@ -4,6 +4,7 @@
 /*
 font-family: 'Barlow', sans-serif;
 font-weight:600;
+
 font-family: 'Fraunces', serif;
 font-weight:700 900;
 */
@@ -68,12 +69,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 60px;
+  padding: 4.5rem 6rem;
 }
 
 .nav-links > li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 2rem;
 }
 
 .nav-links > li > a {
@@ -89,9 +90,9 @@ header {
   color: var(--veryDarkDesaturatedBlue);
   font-family: "Barlow", sans-serif;
   background-color: var(--White);
-  padding: 0.7em 1.3em;
-  margin-left: 20px;
-  border-radius: 1.6em;
+  padding: 1.2rem 2.3rem;
+  margin-left: 2rem;
+  border-radius: 2.5rem;
 }
 
 .contact-btn:hover {
@@ -103,15 +104,15 @@ header {
   color: var(--White);
   font-family: "Fraunces", serif;
   font-weight: 900;
-  font-size: 50px;
-  padding: 80px 0;
+  font-size: 5rem;
+  padding: 8rem 0;
   margin: 0 auto;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
 }
 
 .bottom-header-text > img {
   display: block;
-  margin: 100px auto;
+  margin: 10rem auto;
   min-width: 3.5%;
 }
 
@@ -138,16 +139,16 @@ header {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: var(--veryDarkDesaturatedBlue);
-  max-width: 320px;
-  padding-bottom: 30px;
+  max-width: 32rem;
+  padding-bottom: 3rem;
 }
 
 .sectionOne-Info-Text > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  max-width: 450px;
-  line-height: 30px;
-  padding-bottom: 30px;
+  max-width: 45rem;
+  line-height: 3rem;
+  padding-bottom: 3rem;
 }
 
 .LM-1 {
@@ -160,9 +161,9 @@ header {
   content: "";
   display: block;
   background-color: var(--Yellow);
-  width: 140px;
-  height: 9px;
-  margin: -8px -4px;
+  width: 14rem;
+  height: 0.9rem;
+  margin: -0.8rem -0.4rem;
   border-radius: 10px;
   opacity: 0.3;
 }
@@ -223,16 +224,16 @@ header {
   font-family: "Fraunces", serif;
   font-weight: 900;
   color: var(--veryDarkDesaturatedBlue);
-  max-width: 400px;
-  padding-bottom: 30px;
+  max-width: 40rem;
+  padding-bottom: 3rem;
 }
 
 .sectionTwo-Info-Text > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  max-width: 450px;
-  line-height: 25px;
-  padding-bottom: 30px;
+  max-width: 45rem;
+  line-height: 2.5rem;
+  padding-bottom: 3rem;
 }
 
 .LM-2 {
@@ -245,9 +246,9 @@ header {
   content: "";
   display: block;
   background-color: var(--softRed);
-  width: 140px;
-  height: 9px;
-  margin: -8px -4px;
+  width: 14rem;
+  height: 0.9rem;
+  margin: -0.8rem -0.4rem;
   border-radius: 10px;
   opacity: 0.3;
 }
@@ -282,14 +283,14 @@ header {
   color: var(--darkDesaturatedCyan);
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 
 .Section3-LT-Info > p {
   color: var(--darkDesaturatedCyan);
   font-family: "Barlow", sans-serif;
-  max-width: 390px;
-  line-height: 30px;
+  max-width: 39rem;
+  line-height: 3rem;
 }
 
 .cherry-img-D {
@@ -317,14 +318,14 @@ header {
   color: var(--darkDlue);
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 
 .Section3-RB-Info > p {
   color: var(--darkDlue);
   font-family: "Barlow", sans-serif;
-  max-width: 390px;
-  line-height: 30px;
+  max-width: 39rem;
+  line-height: 3rem;
 }
 
 .orange-img-D {
@@ -349,15 +350,15 @@ header {
   color: var(--grayishBlue);
   font-family: "Fraunces", serif;
   font-weight: 700;
-  padding-top: 70px;
-  letter-spacing: 5px;
+  padding-top: 7rem;
+  letter-spacing: 0.5rem;
 }
 
 .testimonials {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 60px;
-  padding-bottom: 85px;
+  padding-top: 6rem;
+  padding-bottom: 8.5rem;
 }
 
 .cus-img {
@@ -369,58 +370,58 @@ header {
 .Testimonial-One > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  max-width: 350px;
-  padding-top: 35px;
+  max-width: 35rem;
+  padding-top: 3.5rem;
 }
 
 .Testimonial-One > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-top: 40px;
+  padding-top: 4rem;
 }
 
 .Testimonial-One > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 .Testimonial-Two > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  max-width: 350px;
-  padding-top: 35px;
+  max-width: 35rem;
+  padding-top: 3.5rem;
 }
 
 .Testimonial-Two > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-top: 40px;
+  padding-top: 4rem;
 }
 
 .Testimonial-Two > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 .Testimonial-Three > p {
   color: var(--veryDarkGrayishBlue);
   font-family: "Barlow", sans-serif;
-  max-width: 350px;
-  padding-top: 35px;
+  max-width: 35rem;
+  padding-top: 3.5rem;
 }
 
 .Testimonial-Three > h5 {
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-top: 40px;
+  padding-top: 4rem;
 }
 
 .Testimonial-Three > h6 {
   color: var(--grayishBlue);
   font-family: "Barlow", sans-serif;
-  padding-top: 10px;
+  padding-top: 1rem;
 }
 
 /*    5    */
@@ -469,14 +470,14 @@ footer {
   color: rgb(40, 111, 95);
   font-family: "Fraunces", serif;
   font-weight: 900;
-  padding-top: 45px;
-  margin-left: 20px;
+  padding-top: 4.5rem;
+  margin-left: 2rem;
 }
 
 .footer-menu {
   display: flex;
-  padding-top: 35px;
-  padding-bottom: 40px;
+  padding-top: 3.5rem;
+  padding-bottom: 4rem;
 }
 
 .footer-links {
@@ -487,7 +488,7 @@ footer {
 
 .footer-links > li > a {
   color: var(--darkModerateCyan);
-  padding: 20px;
+  padding: 2rem;
 }
 
 .footer-links > li > a:hover {
@@ -495,11 +496,11 @@ footer {
 }
 
 .social-links {
-  padding-bottom: 35px;
+  padding-bottom: 3.5rem;
 }
 
 .social-links > a > img {
-  padding: 10px;
+  padding: 1rem;
 }
 
 /*   TABLET/LAPTOP/LANDSCAPE   */
@@ -524,17 +525,17 @@ footer {
   }
 
   .sectionOne-Info-Text > h1 {
-    max-width: 250px;
-    padding-top: 45px;
-    padding-bottom: 20px;
+    max-width: 25rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
   }
 
   .sectionOne-Info-Text > p {
-    max-width: 350px;
+    max-width: 35rem;
   }
 
   .LM-1 {
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
   }
 
   .sectionOne-Image {
@@ -560,17 +561,17 @@ footer {
   }
 
   .sectionTwo-Info-Text > h1 {
-    max-width: 250px;
-    padding-top: 45px;
-    padding-bottom: 20px;
+    max-width: 25rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
   }
 
   .sectionTwo-Info-Text > p {
-    max-width: 325px;
+    max-width: 32.5rem;
   }
 
   .LM-2 {
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
   }
 
   /*    3    */
@@ -588,8 +589,8 @@ footer {
   }
 
   .Section3-LT-Info > h2 {
-    font-size: 35px;
-    padding-bottom: 25px;
+    font-size: 3.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .sectionThree-Right-Bottom {
@@ -601,8 +602,8 @@ footer {
   }
 
   .Section3-RB-Info > h2 {
-    font-size: 35px;
-    padding-bottom: 25px;
+    font-size: 3.5rem;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -650,7 +651,7 @@ footer {
   }
 
   .nav-links > li {
-    padding: 20px 0;
+    padding: 2rem 0;
   }
 
   .nav-links > li > a {
@@ -659,9 +660,9 @@ footer {
 
   .contact-btn {
     background-color: var(--Yellow);
-    width: 115px;
+    width: 11.5rem;
     padding: 0.7em 1.1em;
-    margin: 10px;
+    margin: 1rem;
   }
 
   .contact-btn:hover {
@@ -671,7 +672,7 @@ footer {
   }
 
   .top-header-nav {
-    padding: 25px;
+    padding: 2.5rem;
   }
 
   .bottom-header-text > img {
@@ -679,8 +680,8 @@ footer {
   }
 
   .bottom-header-text > h1 {
-    font-size: 45px;
-    max-width: 600px;
+    font-size: 4.5rem;
+    max-width: 60rem;
   }
 
   /*    1    */
@@ -731,47 +732,47 @@ footer {
   /*    4    */
 
   .sectionFour > h4 {
-    padding-top: 60px;
+    padding-top: 6rem;
   }
 
   .testimonials {
     flex-wrap: wrap;
-    padding: 50px 0;
+    padding: 5rem 0;
   }
 
   .Testimonial-One {
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
   }
 
   .Testimonial-One > p {
-    max-width: 330px;
-    padding-top: 20px;
+    max-width: 33rem;
+    padding-top: 2rem;
   }
 
   .Testimonial-One > h5 {
-    padding-top: 20px;
+    padding-top: 2rem;
   }
 
   .Testimonial-Two {
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
   }
 
   .Testimonial-Two > p {
-    max-width: 330px;
-    padding-top: 20px;
+    max-width: 33rem;
+    padding-top: 2rem;
   }
 
   .Testimonial-Two > h5 {
-    padding-top: 20px;
+    padding-top: 2remx;
   }
 
   .Testimonial-Three > p {
-    max-width: 330px;
-    padding-top: 20px;
+    max-width: 33rem;
+    padding-top: 2rem;
   }
 
   .Testimonial-Three > h5 {
-    padding-top: 20px;
+    padding-top: 2rem;
   }
 
   /*    5    */
